@@ -52,10 +52,10 @@ In retrospect, we should have worked harder at exploring a more incremental, dar
 
 #### Tips
 
-Identify your MVP... minimum viable product
-  What is the minimum set of features that you need in order to launch?
-Look for opportunities to break monolithic components into smaller components
-If you're replacing an existing application, is there a way that you can incrementally migrate groups of users to the new application?
+* Identify your MVP... minimum viable product
+  * What is the minimum set of features that you need in order to launch?
+* Look for opportunities to break monolithic components into smaller components
+* If you're replacing an existing application, is there a way that you can incrementally migrate groups of users to the new application?
 
 ### Gold plating
 
@@ -78,10 +78,10 @@ It was absolutely the correct thing to do
 
 #### Tips
 
-Don't hold back your creativity
-But don't let yourself be distracted
-Document your ideas (more on that later) and stay focused on the task at hand
-Always write the least amount of code to implement a feature
+* Don't hold back your creativity
+* But don't let yourself be distracted
+* Document your ideas (more on that later) and stay focused on the task at hand
+* Always write the least amount of code to implement a feature
 
 ### Failing to use realistic test data
 
@@ -98,9 +98,9 @@ And one of the main screens in the application--the main "Claims" page, which wa
 
 #### Tips
 
-At the beginning of the project, determine what the expected performance is for your key screens
-Then determine the typical "load" for those screens
-Make sure that you include in your testing (hopefully automated integration tests) a realistic set of test data
+* At the beginning of the project, determine what the expected performance is for your key screens
+* Then determine the typical "load" for those screens
+* Make sure that you include in your testing (hopefully automated integration tests) a realistic set of test data
 
 ### Not writing unit tests
 
@@ -115,12 +115,12 @@ But this is incredibly short sighted
 
 #### Tips
 
-Get started with writing tests right at the beginning of the project
-Take the time to get support testing into your project
-Doing this will help ensure that you aren't developing in a way that'll make testing difficult to do later on
-Consider not allowing code to be merged into your shared branches unless they have test coverage
-Make an investment in your test code
-  Write helper/utility methods to make testing your app easier to do
+* Get started with writing tests right at the beginning of the project
+* Take the time to get support testing into your project
+* Doing this will help ensure that you aren't developing in a way that'll make testing difficult to do later on
+* Consider not allowing code to be merged into your shared branches unless they have test coverage
+* Make an investment in your test code
+  * Write helper/utility methods to make testing your app easier to do
 
 ### Failing to automate at the beginning of a project
 
@@ -130,13 +130,13 @@ Just like with unit testing... it can be difficult to find time to setup a CI/CD
 
 #### Tips
 
-New services and tools are making this easier than ever to do
-  Travis CI
-  Codeship
-  VS Team Services
-Get help from a colleague or consultant
-Identify someone on the team to take the lead on developing a CI/CD pipeline
-  But be careful to not create a silo!!!
+* New services and tools are making this easier than ever to do
+  * Travis CI
+  * Codeship
+  * VS Team Services
+* Get help from a colleague or consultant
+* Identify someone on the team to take the lead on developing a CI/CD pipeline
+  * But be careful to not create a silo!!!
 
 ### Creating silos of responsibilities or knowledge
 
@@ -146,11 +146,11 @@ I've seen departures of key team members create readonly sections of the code ba
 
 #### Tips
 
-Write unit tests!!!
-  That'll give you a bit of a safety net when doing maintenance and bug fixes
-Review each other's code
-  Don't merge anything to your shared branches without doing a code review
-Work our regular times to do pair programming
+* Write unit tests!!!
+  * That'll give you a bit of a safety net when doing maintenance and bug fixes
+* Review each other's code
+  * Don't merge anything to your shared branches without doing a code review
+* Work our regular times to do pair programming
 
 ### Adding more team members to speed up development
 
@@ -160,8 +160,8 @@ This is because the time required for the new programmers to learn about the pro
 
 #### Tips
 
-Don't add team members to speed up projects
-Add new team members in order to bring skills or experience that the team needs
+* Don't add team members to speed up projects
+* Add new team members in order to bring skills or experience that the team needs
 
 ### Not supporting new team members
 
@@ -169,11 +169,11 @@ If you do add somebody to your team... be sure to properly support them with ram
 
 #### Tips
 
-Allocate time for existing team members to pair program with new team members
-Allow new team members to shadow existing team members
-Be patient... they'll need to ask lots of questions
-You're doing code reviews... right?
-  Always involve them in code reviews
+* Allocate time for existing team members to pair program with new team members
+* Allow new team members to shadow existing team members
+* Be patient... they'll need to ask lots of questions
+* You're doing code reviews... right?
+  * Always involve them in code reviews
 
 ### Not giving feedback
 
@@ -184,10 +184,10 @@ Sometimes this isn't possible...
 
 #### Tips
 
-Leverage a tool (like GitHub PRs) that makes it easy to give feedback on each other's code
-If a developer keeps making mistakes, let whoever is leading the team set expectations with the developer
-  What are they doing wrong?
-  What corrective action do they need to take?
+* Leverage a tool (like GitHub PRs) that makes it easy to give feedback on each other's code
+* If a developer keeps making mistakes, let whoever is leading the team set expectations with the developer
+  * What are they doing wrong?
+  * What corrective action do they need to take?
 
 ### Not tracking all of your source code
 
@@ -197,8 +197,8 @@ Legacy services and apps can also be difficult to track down
 
 #### Tips
 
-Build your database on a regular basis
-CI helps to discover when developers aren't committing all of their files... the build will instantly break when syncing with the central source code repository
+* Build your database on a regular basis
+* CI helps to discover when developers aren't committing all of their files... the build will instantly break when syncing with the central source code repository
 
 ### Not adopting a coding style
 
@@ -206,9 +206,9 @@ You shouldn't be able to identify who coded something just by looking at the sou
 
 #### Tips
 
-Discuss the conventions they're going to use at the beginning of a project and document those decisions
-Leverage code style enforcement tools
-  VS 2017 now provides built-in support for code style configuration and enforcement
+* Discuss the conventions they're going to use at the beginning of a project and document those decisions
+* Leverage code style enforcement tools
+  * VS 2017 now provides built-in support for code style configuration and enforcement
 
 ## Project Management Traps and Pitfalls
 
@@ -231,9 +231,9 @@ It's always better to be consistent with delivering status reports then to be er
 
 #### Tips
 
-Make your process as lightweight as possible
-Only report what is absolutely necessary
-Automate your reporting as much as possible
+* Make your process as lightweight as possible
+* Only report what is absolutely necessary
+* Automate your reporting as much as possible
 
 ### Not being realistic with estimates
 
@@ -245,13 +245,13 @@ How often do you have a task that you're almost done with?
 
 #### Tips
 
-Create new tasks as soon as they're identified
-Don't go on tangents (if they can wait)
-  Sometimes they're dependencies and it's not possible to delay work on tasks
-  But if you can... do it
-Communicate to your PM immediately when you realize that a task will take you longer than expected
-  There's always the possibility that you understanding of the task is incorrect or that you've overlooked a simpler implementation
-Re-estimate the task
+* Create new tasks as soon as they're identified
+* Don't go on tangents (if they can wait)
+  * Sometimes they're dependencies and it's not possible to delay work on tasks
+  * But if you can... do it
+* Communicate to your PM immediately when you realize that a task will take you longer than expected
+  * There's always the possibility that you understanding of the task is incorrect or that you've overlooked a simpler implementation
+* Re-estimate the task
 
 ### Failing to track changes to the project
 
@@ -270,9 +270,9 @@ Projects are living things... they will change
 
 #### Tips
 
-When they change you need to document what the change is, why the change is being made, and who was involved in the decision to make the change
-Leverage an online tool that makes collaboration easy
-Should be easy to track changes over time
+* When they change you need to document what the change is, why the change is being made, and who was involved in the decision to make the change
+* Leverage an online tool that makes collaboration easy
+* Should be easy to track changes over time
 
 ### Not tracking or triaging new features or change requests
 
@@ -284,12 +284,12 @@ New features are discovered all the time...
 
 #### Tips
 
-Use issue tracking!!!
-Give everyone on the team the ability to create new issues
-  Review new issues as a team on a regular cadence
-Consider giving end users a way to report new issues or bugs
-  Add them to your issue tracking?
-  Give them their own channel for reporting new issues or bugs
+* Use issue tracking!!!
+* Give everyone on the team the ability to create new issues
+  * Review new issues as a team on a regular cadence
+* Consider giving end users a way to report new issues or bugs
+  * Add them to your issue tracking?
+  * Give them their own channel for reporting new issues or bugs
 
 ### Failing to communicate across the entire organization
 
@@ -297,10 +297,10 @@ When they're changes to your project be sure that you communicate those changes 
 
 #### Tips
 
-For larger projects, you might need to assemble a team of key users, a "steering community" if you will
-These users can meet regularly to review and discuss the development of the app
-Include key changes in your regulary scheduled status reports
-  Indicate how those changes will affect the project
+* For larger projects, you might need to assemble a team of key users, a "steering community" if you will
+* These users can meet regularly to review and discuss the development of the app
+* Include key changes in your regulary scheduled status reports
+  * Indicate how those changes will affect the project
 
 ### Poor or missing requirements
 
@@ -309,17 +309,17 @@ Do you start development even if you don't have completed requirements?
 
 #### Tips
 
-Meet regularly with end users
-Observe how they do their work
-Learn the business domain
-You might need to become an expert "end user" yourself in order to understand the business problem that needs to be addressed
+* Meet regularly with end users
+* Observe how they do their work
+* Learn the business domain
+* You might need to become an expert "end user" yourself in order to understand the business problem that needs to be addressed
 
 ## In Conclusion
 
 ### I've made a lot of mistakes
 
-After putting this talk together it occurred to me...
-  I've made a lot of mistakes
+* After putting this talk together it occurred to me...
+  * I've made a lot of mistakes
 
 ### Why did this happen to me?
 

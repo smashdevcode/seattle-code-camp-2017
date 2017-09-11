@@ -1,9 +1,9 @@
 
 # Seattle Code Camp 2017
 
-# Static Types in JavaScript
+## [Static Types in JavaScript](static-types-in-javascript/)
 
-## Hey... You Got Static Types in My JavaScript!
+### Hey... You Got Static Types in My JavaScript!
 
 As JavaScript applications continue to grow in size and complexity, the teams that develop and support them often find themselves looking for ways to help increase productivity and reduce errors. A well-known practice for reducing coding errors is to employ unit testing. A more recent approach is to add static typing to JavaScript by utilizing technologies like Microsoft's TypeScript or Facebook's Flow.
 
@@ -18,7 +18,7 @@ Topics include:
 * Leveraging TypeScript and Flow in your projects
 * Comparing TypeScript and Flow
 
-# You're Only Human: Common Development Traps and Pitfalls and How to Avoid Them
+## [You're Only Human: Common Development Traps and Pitfalls and How to Avoid Them](common-dev-traps-and-pitfalls/)
 
 Let’s face it, you’re only human.
 
